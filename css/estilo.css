@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url('../imagens/fundo2.png') repeat-x;
+}
+
+h1{
+    color: white;
+    display: inline;
+    
+    float: left;
+}
+
+h2{
+    opacity: 1;
+    line-height: 3em;
+}
+h3{
+    text-align: center;
+    color: #A67458;
+    margin-bottom: 10px;
+}
+#principal{
+   
+    width: 1080px;
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    box-sizing: border-box;
+    padding: 15px;
+    
+}
+
+nav ul{
+    margin-top: 15px;
+    
+    list-style: none;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+    text-decoration: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #A67458;
+    margin-left: 30px;
+    
+}
+
+nav ul li a:hover{
+    color: white;
+    border-bottom: 1px dashed #A67458;
+}
+
+#conteudo{
+    float: left;
+    width: 710px;
+    
+}
+
+aside{
+    float: right;
+    width: 350px;
+    
+}
+
+#capa{
+    background: url('../imagens/capa.jpg');
+    height: 490px;
+}
+
+#baner{
+    position: relative;
+    top: 300px;
+    background: white;
+    opacity: 0.5;  
+    width: 250px;
+    height: 80px; 
+    border-radius: 0px 30px 30px 0px;
+}
+
+#visita{
+    padding: 15px;
+    color: #A67458;
+    background: #734636;
+}
+
+input{
+    width: 80px;
+    border: none;
+}
+
+.botao{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    background: #A67458;
+    color: white;
+    font-size: 16px;   
+}
+
+.botao:hover{
+    background: #362119;
+    cursor: pointer;
+}
+
+#galeria a{
+    
+    margin: 10px 25px;
+    width: 120px;
+    height: 126px;
+    display: block;
+    float: left;
+    background: url('../imagens/fundo-foto.png');
+}
+
+#galeria{
+    background: url('../imagens/fundo2.png');
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.fotoG{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.postagem{
+    width: 310px;
+    height: 190px;
+    float: left;
+    margin: 15px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.postagem a{
+    text-decoration: none;
+    color: #362119;
+    
+    
+}
+
+.postagem li{
+    margin-bottom: 10px;
+    
+}
+
+#postagens{
+    background: #e9e8e8;
+
+}
+footer{
+    text-align: center;
+    color: white;
+    line-height: 5em;
+    height: 80px;
+    background: url('../imagens/fundo2.png') repeat-x;
+}
+.clear{
+    clear: both;
+}

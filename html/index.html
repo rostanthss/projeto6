@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>  
+    <div id="principal">
+        <header>
+            <h1>Museu</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="conteudo">
+            <section id="capa">
+                <div id="baner">
+                    <h2>Agende sua Visita</h2>
+                </div>
+            </section>
+
+           <section id="postagens">
+                <article class="postagem">
+                    <h3>Conheça o Museu</h3>
+                    <video src="../imagens/video.mp4" width="310" controls></video>
+                </article>
+
+                <article class="postagem">
+                    <h3>Veja no Mapa</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79410.12750325497!2d-0.19169855009971848!3d51.539510722880415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b323093d307%3A0x2fb199016d5642a7!2sMuseu%20Brit%C3%A2nico!5e0!3m2!1spt-BR!2sbr!4v1661238542301!5m2!1spt-BR!2sbr" width="310" height="160" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+
+                <article class="postagem">
+                    <h3>Exposições</h3>
+                    <ul>
+                        <li><a href="#">Os assustadores insetos</a></li>
+                        <li><a href="#">O crânio do Luzia, a mulher mais antiga do Brasil</a></li>
+                        <li><a href="#">Preguiça gigante</a></li>
+                        <li><a href="#">Plantas do Brasil</a></li>
+                        <li><a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                    </ul>
+                </article>
+
+                <article class="postagem">
+                    <h3>Séculos de História</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius dolorem fugiat exercitationem cum dolorum modi architecto fugit officia optio, similique minima id maiores incidunt est! Quia dolor temporibus repellat.</p>
+                </article>
+
+                <div class="clear"></div>
+           </section>
+           
+        </div>
+
+        <aside>
+            <section id="capa2">
+                <img width="350" height="490" src="../imagens/capa2.jpg" alt="">
+            </section>
+
+            <section id="visita">
+                <h3>Faça uma Visita</h3> <br>
+                <form action="">
+                    <label for="data">Data:</label>
+                    <input type="date" name="data" id="data"> 
+                    <br>
+                    <label for="Npessoas">Número de visitantes</label>
+                    <input type="number" name="Npessoas" id="">
+
+                    <input class="botao" type="submit" value="Verificar Disponibilidade">
+                </form>
+            </section>
+
+            <section id="galeria">
+                <a href="#"><img width="90" class="fotoG" src="../imagens/galeria1.jpg" alt=""></a>
+                <a href="#"><img width="90" class="fotoG" src="../imagens/galeria2.jpg" alt=""></a>
+                <a href="#"><img width="90" class="fotoG" src="../imagens/galeria3.jpg" alt=""></a>
+                <a href="#"><img width="90" class="fotoG" src="../imagens/galeria4.jpg" alt=""></a>
+                <div class="clear"></div>
+            </section>
+            
+        </aside>
+        <div class="clear"></div>
+
+        <footer>
+            <p>&copy;Todos os direitos Reservados</p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
